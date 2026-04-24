@@ -1,0 +1,58 @@
+{
+  "all_match_expected": true,
+  "extension_package": "nimbus-saab-ext",
+  "scenarios": [
+    {
+      "actual_mode": "autonomous",
+      "expected_mode": "autonomous",
+      "matches_expected": true,
+      "n_alerts": 0,
+      "n_coas": 3,
+      "n_threats": 3,
+      "name": "Boreal \u00e2\u20ac\u201d clean picture (three bombers from Spear Point)",
+      "sa_health": 92.62,
+      "scenario_id": "boreal_clean",
+      "situation_complexity": 0.021,
+      "stakes": 0.296
+    },
+    {
+      "actual_mode": "defer",
+      "expected_mode": "defer",
+      "matches_expected": true,
+      "n_alerts": 2,
+      "n_coas": 3,
+      "n_threats": 4,
+      "name": "Boreal \u00e2\u20ac\u201d jammed sensors + hypersonic from Meridia",
+      "sa_health": 20.51,
+      "scenario_id": "boreal_jammed",
+      "situation_complexity": 0.489,
+      "stakes": 0.582
+    },
+    {
+      "actual_mode": "advise",
+      "expected_mode": "advise",
+      "matches_expected": true,
+      "n_alerts": 0,
+      "n_coas": 3,
+      "n_threats": 4,
+      "name": "Boreal \u00e2\u20ac\u201d strait crossing (four-track first wave)",
+      "sa_health": 68.79,
+      "scenario_id": "boreal_strait",
+      "situation_complexity": 0.339,
+      "stakes": 0.46
+    },
+    {
+      "actual_mode": "advise",
+      "expected_mode": "advise",
+      "matches_expected": true,
+      "n_alerts": 0,
+      "n_coas": 3,
+      "n_threats": 15,
+      "name": "Boreal \u00e2\u20ac\u201d drone swarm + fast-mover breakthrough",
+      "sa_health": 64.74,
+      "scenario_id": "boreal_swarm",
+      "situation_complexity": 0.388,
+      "stakes": 0.524
+    }
+  ]
+}
