@@ -1,0 +1,47 @@
+{
+  "extension_package": "nimbus-saab-ext",
+  "runs_per_scenario": 100,
+  "scenarios": {
+    "boreal_clean": {
+      "all_unique_hashes": [
+        "aa697105bac20e4bef0cc11a023c128e9f358c0bd14f33b1bf07776e2525632b"
+      ],
+      "canonical_sha256": "aa697105bac20e4bef0cc11a023c128e9f358c0bd14f33b1bf07776e2525632b",
+      "deterministic": true,
+      "n_runs": 100,
+      "n_unique_hashes": 1,
+      "seconds_elapsed": 3.781
+    },
+    "boreal_jammed": {
+      "all_unique_hashes": [
+        "c9a14c701e84408deec36808a355bb7367663c05460d23b150d47c81413cd039"
+      ],
+      "canonical_sha256": "c9a14c701e84408deec36808a355bb7367663c05460d23b150d47c81413cd039",
+      "deterministic": true,
+      "n_runs": 100,
+      "n_unique_hashes": 1,
+      "seconds_elapsed": 0.492
+    },
+    "boreal_strait": {
+      "all_unique_hashes": [
+        "ce5c7dbcf9e69a0751d79d9789b944735deeca9b10fde7212700731587184980"
+      ],
+      "canonical_sha256": "ce5c7dbcf9e69a0751d79d9789b944735deeca9b10fde7212700731587184980",
+      "deterministic": true,
+      "n_runs": 100,
+      "n_unique_hashes": 1,
+      "seconds_elapsed": 3.967
+    },
+    "boreal_swarm": {
+      "all_unique_hashes": [
+        "c9639ae6fc5abd774a3e29dc3c7beb478beb8d0b7e25e4f95fdfe9aca3f35163"
+      ],
+      "canonical_sha256": "c9639ae6fc5abd774a3e29dc3c7beb478beb8d0b7e25e4f95fdfe9aca3f35163",
+      "deterministic": true,
+      "n_runs": 100,
+      "n_unique_hashes": 1,
+      "seconds_elapsed": 2.201
+    }
+  },
+  "verdict": "ALL_DETERMINISTIC"
+}
