@@ -9,3 +9,8 @@ venv/
 .ruff_cache/
 *.log
 .DS_Store
+
+# Intermediate installer artifacts
+install-extension-sources.ps1
+nimbus_c2_reliability_lab.zip
+*.zip
